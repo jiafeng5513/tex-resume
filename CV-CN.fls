@@ -1,8 +1,8 @@
-PWD e:/JobHunting/CV in chinese
+PWD e:/JobHunting/tex-resume
 INPUT d:/ProgramData/texlive/2018/texmf.cnf
 INPUT d:/ProgramData/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT d:/ProgramData/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT e:/JobHunting/CV in chinese/CV-CN.tex
+INPUT e:/JobHunting/tex-resume/CV-CN.tex
 OUTPUT CV-CN.log
 INPUT d:/ProgramData/texlive/2018/texmf-dist/tex/latex/memoir/memoir.cls
 INPUT d:/ProgramData/texlive/2018/texmf-dist/tex/latex/memoir/memoir.cls

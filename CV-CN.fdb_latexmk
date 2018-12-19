@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1544631595 "e:/JobHunting/CV in chinese/CV-CN.tex" "CV-CN.pdf" "CV-CN" 1544631598
-  "CV-CN.aux" 1544631597 757 4f8e6dc7f39129e1da275e4679df5d33 ""
-  "CV-CN.out" 1544631596 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "CV-CN.tex" 1544631593 6945 3f45e5865e81df53a237688d308f1a0f ""
+["pdflatex"] 1545202247 "e:/JobHunting/tex-resume/CV-CN.tex" "CV-CN.pdf" "CV-CN" 1545202250
+  "CV-CN.aux" 1545202249 757 4f8e6dc7f39129e1da275e4679df5d33 ""
+  "CV-CN.out" 1545202249 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "CV-CN.tex" 1545201317 6953 a32ada1b2a17f03c8e6ed4891b3dd8f5 ""
   "Github.png" 1544630988 2567 9811953db0ee92eed188951a81f63608 ""
   "d:/ProgramData/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1528852975 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "d:/ProgramData/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1528853239 3332 103109f5612ad95229751940c61aada0 ""
@@ -285,10 +285,10 @@
   "d:/ProgramData/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1528855796 2743376 718c00a43392dcd05b6432be08685216 ""
   "d:/ProgramData/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1528855943 4222194 5599f1773ab868f1f5c8be2556ce72b7 ""
   "d:/ProgramData/texlive/2018/texmf.cnf" 1528855722 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "e:/JobHunting/CV in chinese/CV-CN.tex" 1544631593 6945 3f45e5865e81df53a237688d308f1a0f ""
+  "e:/JobHunting/tex-resume/CV-CN.tex" 1545201317 6953 a32ada1b2a17f03c8e6ed4891b3dd8f5 ""
   "photo.jpg" 1505104375 47024 2bec9c9c7e32df7927090892f555d28f ""
   (generated)
   "CV-CN.aux"
-  "CV-CN.pdf"
   "CV-CN.log"
   "CV-CN.out"
+  "CV-CN.pdf"
