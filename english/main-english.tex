@@ -2,7 +2,6 @@
 % Document properties and packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[a4paper,12pt,final]{memoir}
-\usepackage{CJKutf8}%中文支持
 \usepackage{float}
 % misc
 \renewcommand{\familydefault}{bch}	% font
@@ -80,12 +79,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-\begin{CJK*}{UTF8}{gbsn}%选择字体，黑体
 % Left frame 左边内容在此定义
 %%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\hfill
-	\includegraphics[width=0.8\columnwidth]{photo}
+	\includegraphics[width=0.8\columnwidth]{../img/photo.jpg}
 	\vspace{-7cm}
 \end{figure}
 \begin{flushright}\footnotesize
@@ -115,7 +113,7 @@
 	\CVItem{\large Link To My Github}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.8\columnwidth]{Github.png}
+		\includegraphics[width=0.8\columnwidth]{../img/Github.png}
 	\end{figure}
 	
 
@@ -133,7 +131,7 @@
 \hrule
 \SmallSep
 
-\CVItem{2022.07 - Now\hfill\textsc{Intel Asia Pacific R\&D Co., Ltd.}}\\
+\CVItem{2022.07 - Present\hfill\textsc{Intel Asia Pacific R\&D Co., Ltd.}}\\
 \textit{-Intel's Software and Advanced Technology Group (SATG)}\\
 \textit{-HPC engineer}
 
@@ -144,24 +142,29 @@
 \CVItem{2013.09 - 2020.07\hfill\textsc{Jilin University}}\\
 \textit{-School of Computer Science and Technology}\\
 \textit{-Master's Degree in Computer Graphics}
+\\
 
 % CAMPU
-\CVSection{Working Experience}
+\CVSection{Work Experience}
 \hrule
 \SmallSep
-\CVItem{LLM Deployment\hfill\emph{Intel era}}\\
-\textit{$\bullet$ Supporting LLMs (like DeepSeek-R1, QWen3, MiniCPM) on Intel platform, in which the Software stack is oneAPI-IPEX-torch and oneAPI-OpenVINO, Hardware is Intel x86 CPU/NPU/iGPU and Arc dGPUs. }
-
+\CVItem{LLM Deployment\hfill\emph{Intel}}\\
+\textit{$\bullet$ Supporting LLMs (DeepSeek-R1, QWen3, MiniCPM) on Intel platform, in which the Software stack is oneAPI-IPEX-torch and oneAPI-OpenVINO, Hardware is Intel x86 CPU/NPU/iGPU and Arc dGPUs. }
+\\
+\\
 \CVItem{LLM Model and APP Development\hfill\emph{Intel era}}\\
 \textit{$\bullet$ 
-Develop several LLM and VLM besed applications on both Windows(for AIPC) and Android (for AI Cockpit), and these apps were exhibited at Shanghai Auto Show 2025, Import Expo 2023, and CES 2025.  Working with ModelBest, develop and training GUI Agent application and model, which helps users to operate the UI of Android devices directly according to voice commands.} 
+Develop several LLM and VLM based applications on both Windows(for AIPC) and Android (for AI Cockpit), and which were exhibited at Shanghai Auto Show 2025, Import Expo 2023, and CES 2025. Work with ModelBest, develop and train GUI Agent application and model, which helps users to operate the UI of Android devices directly according to voice commands.} 
+\\
 \\
 \CVItem{Operators Development \hfill\emph{Huawei era}}\\
-\textit{$\bullet$ Develop deep learning and cv operators for Huawei ADS, in which the Software stack is Mindspore and the Hardware is ARM-based Ascend610/615. The CPU operators based on ARM SVE for some cv functions. The NPU operators is based on Huawei’s AiCore Intrinsics for the model inferences. Finish about 30 Operators in two years.}
+\textit{$\bullet$ Develop deep learning and cv operators for Huawei ADS, in which the Software stack is Mindspore and the Hardware is ARM-based Ascend610/615. The CPU operators are based on ARM SVE for some cv functions. The NPU operators are based on Huawei’s AiCore Intrinsics for the model inferences. Finished about 30 Operators in two years.}
+\\
 \\
 \CVItem{CI/CD \hfill\emph{Huawei era}}\\
 \textit{$\bullet$ 
-Design and develop the AI model CI/CD system for ADS Software platform, Add model conversion and operator integration processes to the CI/CD process. The entire process from training code and data source to Ascend model can be tracked by version management which allows operator development and model conversion process to comply with Huawei ICSL specifications. }
+Design and develop an AI model CI/CD system for ADS Software platform, and add model conversion and operator integration processes to the CI/CD process. Enabling the entire process from training code and data source to Ascend model to be tracked by version management, which allows operator development and model conversion process to comply with Huawei ICSL specifications. }
+\\
 \\
 
 % HONORS & SCHOLARSHIPS
@@ -178,5 +181,4 @@ Design and develop the AI model CI/CD system for ADS Software platform, Add mode
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % End document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{CJK*}
 \end{document}
